@@ -1,0 +1,14 @@
+{
+  "over_par": {
+    "bogey": "+1",
+    "double_bogey": "+2",
+    "triple_bogey": "+3",
+    "quadruple_bogey": "+4"
+  },
+  "down_par": {
+    "birdie": "-1",
+    "eagle": "-2",
+    "albatross": "-3",
+    "condor": "-4"
+  }
+}
