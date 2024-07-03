@@ -14490,7 +14490,7 @@ const B1 = ({ onStart: e }) => {
       [l, i] = h.useState(null),
       [s, a] = h.useState(null);
     h.useEffect(() => {
-      fetch("/tracks.json")
+      fetch("./tracks.json")
         .then((p) => {
           if (!p.ok) throw new Error(`HTTP error! status: ${p.status}`);
           return p.json();
@@ -14520,7 +14520,7 @@ const B1 = ({ onStart: e }) => {
             O.jsx("div", {
               className: "flex justify-center opacity-90 -mt-20",
               children: O.jsx("img", {
-                src: "./glide-logo.png",
+                src: "../glide-logo.png",
                 className: "w-2/3",
               }),
             }),
