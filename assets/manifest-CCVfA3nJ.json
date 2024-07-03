@@ -1,7 +1,7 @@
 {
   "name": "Glide",
   "short_name": "Glide",
-  "start_url": "https://username.github.io/Glide/",
+  "start_url": "https://arskakoo.github.io/Glideapp/",
   "display": "standalone",
   "background_color": "#ffffff",
   "description": "",
@@ -39,7 +39,7 @@
   ],
   "related_applications": [
     {
-      "url": "https://username.github.io/Glide/"
+      "url": "https://arskakoo.github.io/Glideapp/"
     }
   ]
 }
