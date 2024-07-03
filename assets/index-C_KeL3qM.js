@@ -14520,7 +14520,7 @@ const B1 = ({ onStart: e }) => {
             O.jsx("div", {
               className: "flex justify-center opacity-90 -mt-20",
               children: O.jsx("img", {
-                src: "../glide-logo.png",
+                src: "./glide-logo.png",
                 className: "w-2/3",
               }),
             }),
