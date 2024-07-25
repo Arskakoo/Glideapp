@@ -14501,7 +14501,7 @@ const uS = ({ onStart: e }) => {
       [l, i] = c.useState(null),
       [a, s] = c.useState(null);
     c.useEffect(() => {
-      fetch("/tracks.json")
+      fetch("./tracks.json")
         .then((p) => {
           if (!p.ok) throw new Error(`HTTP error! status: ${p.status}`);
           return p.json();
